@@ -1,0 +1,110 @@
+.navbar-container-overlay{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.navbar-container {
+    padding: 10px;
+    color: white;
+    box-shadow: 0 0 10px 3px rgb(255, 0, 98);
+    width: clamp(300px,850px, 900px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 26px;
+}
+
+.navbar-container .logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: clamp(10px, 19px, 20px);
+    color: rgb(255, 0, 98);
+}
+
+/* Desktop Menu */
+.navbar-container .nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: clamp(200px, 550px, 500px);
+    margin-right: 9px;
+}
+
+.navbar-container .nav-menu li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.navbar-container .nav-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-container .nav-menu li:hover {
+    color: rgb(255, 0, 98);
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.menu-icon:hover .icon {
+    transform: scale(1.1);
+}
+
+/* Mobile Menu */
+@media (max-width: 700px) {
+    .navbar-container {
+        display:none;
+    }
+
+    .nav-menu-mobile {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        background: rgb(255, 0, 98);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .nav-menu-mobile {
+        display: flex;
+        width: 250px;
+        
+    }
+
+    .nav-menu-mobile li {
+        padding: 10px 0;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        list-style-type: none;
+    }
+    .nav-menu-mobile li:last-child {
+        border-bottom: none;
+    }
+
+    .nav-menu-mobile li:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .nav-menu-mobile li a {
+        color: white;
+        text-decoration: none;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute; 
+        left: 20px;
+        top: 15px;
+    }
+    
+}

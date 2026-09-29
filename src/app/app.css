@@ -1,0 +1,56 @@
+*{
+    overflow-x: hidden;
+}
+app-navbar-component,
+app-profile-component {
+  display: inline-block;
+}
+
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 50px;  
+  overflow:visible
+}
+
+.mouse {
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  position: relative;
+  margin: -6px;
+  transform: rotate(45deg);
+  border-top: none;
+  border-left: none;
+  animation: fadeIn 3s  infinite , scroll 3s  infinite linear ;
+  
+}
+
+
+/* .wheel {
+
+  width: 4px;
+  height: 8px;
+  background: white;
+  border-radius: 4px;
+ 
+  
+} */
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    top: 8px;
+  }
+  100% {
+    opacity: 0;
+    top: 25px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

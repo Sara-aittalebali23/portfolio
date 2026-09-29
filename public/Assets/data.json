@@ -1,0 +1,17 @@
+{
+    "formation":{
+        "2022-2024":"Diplome de technicien specialisé en developpement Digital web fullstack ,ISTA Hay Riad",
+        "2024-2025":"Licence en Big Data et Intelligence Artificielle , EST Sale",
+        "2025-2026":"Formation JobInTech en developpement JEE et .NET , ENSIAS a Rabat"
+    },
+    
+    "projects":[
+        {
+            "name":"EnableSYS"
+        },
+        {
+            "name":"Dashboard HelpDesk IT"
+        }    
+    ]
+}
+

@@ -1,0 +1,133 @@
+{
+    "Skills":[
+        {
+            "type":"Languages de programmation",
+            "skill-list":[
+                {
+                    "name":" HTML/CSS ",
+                    "logo":"",
+                    "score":10,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" JavaScript ",
+                    "logo":"",
+                    "score":9,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Python ",
+                    "logo":"",
+                    "score":8,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Java ",
+                    "logo":"",
+                    "score":7,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" PHP ",
+                    "logo":"",
+                    "score":6
+                },
+                {
+                    "name":" SQL ",
+                    "logo":"",
+                    "score":5,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" TypeScript ",
+                    "logo":"",
+                    "score":4,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" C# ",
+                    "logo":"",
+                    "score":3,
+                    "color":"#E34F26"
+                }
+            ]
+    },
+    {"type":"Frameworks et bibliothèques",
+            "skill-list":[
+                {
+                    "name":" ReactJS ",
+                    "logo":"",
+                    "score":9,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Laravel ",
+                    "logo":"",
+                    "score":8,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Flask ",
+                    "logo":"",
+                    "score":7,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Spring ",
+                    "logo":"",
+                    "score":6,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Spring Boot ",
+                    "logo":"",
+                    "score":5,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Struts ",
+                    "logo":"",
+                    "score":4,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" Angular ",
+                    "logo":"",
+                    "score":3,
+                    "color":"#E34F26"
+                },
+                {
+                    "name":" ASP.NET Core ",
+                    "logo":"",
+                    "score":2,
+                    "color":"#E34F26"
+                }
+                ]
+            },
+            {
+                "type":"Bases de données",
+                "skill-list":[
+                    {
+                        "name":" MySQL ",
+                        "logo":"",
+                        "score":9,
+                        "color":"#E34F26"
+                    },
+                    {
+                        "name":" PostgreSQL ",
+                        "logo":"",
+                        "score":8,
+                        "color":"#E34F26"
+                    },
+                    {
+                        "name":" MongoDB ",
+                        "logo":"",
+                        "score":7,
+                        "color":"#E34F26"
+            }
+        ]
+
+        },
+            // "Bases de données":"MySQL , PostgreSQL , mongoDB",
+            // "Outils de développement":"Git, Github, Gitlab, VS Code, Eclipse, Docker, Jenkins, Postman", 
+            // "Méthodologies" : "Conception UML, Méthode agile Scrum, Gestion de projet, Design Thinking"

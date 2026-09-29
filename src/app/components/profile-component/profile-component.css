@@ -1,0 +1,121 @@
+*{
+    color: white;
+    display: inline;
+}
+
+.profile-container{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.brief-description{
+    width: 50vw;
+    margin-bottom: 20px;
+}
+.brief-description h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: block;
+}
+.brief-description h1 om-typewriter{
+    color: rgb(255, 0, 98);
+
+}
+.brief-description p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: block;
+    margin: 5px;
+}
+.buttons button{
+    margin: 15px;
+    width: 126px;
+    height: 36px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: "Cascadia Code", sans-serif;
+}
+.btn-1{
+    background: rgb(255, 0, 98);
+    border: none;
+
+}
+.btn-1:hover{
+    background: transparent;
+    border: 1px solid rgb(255, 0, 98);
+    color: rgb(255, 0, 98);
+    box-shadow: 0 0 10px 3px rgb(255, 0, 98);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    
+}
+.btn-2{
+    background: transparent;
+    border: 1px solid rgb(255, 0, 98);
+    color: rgb(255, 0, 98);
+}
+.btn-2:hover{
+    background: rgba(255, 255, 255, 0.103);
+    box-shadow: 0 0 10px 3px rgb(255, 0, 98);
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.profile-picture{
+    background: white;
+    width: clamp(20vw,21vw ,30vw);
+    height: clamp(20vh,21vh ,25vh);
+    height: 21vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture img{
+    z-index: 100;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+@media (max-width: 700px) {
+    .profile-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding: 0px;
+        
+    }
+    .brief-description{
+        width: 90vw;
+        text-align: center;
+        
+    }
+    .brief-description p{
+        text-align: justify;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .brief-description h1 om-typewriter{
+        white-space: normal;
+    }
+}

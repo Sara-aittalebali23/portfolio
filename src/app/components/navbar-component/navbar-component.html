@@ -1,0 +1,27 @@
+<div class="navbar-container-overlay">
+
+    <div class="navbar-container" >
+        <span class="logo">Portfolio</span>
+        <span class="nav-menu" [class.active]="IsOn">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Cerificats</a></li>
+            <li><a href="#">Contact me</a> </li>
+        </span>
+    </div>
+
+    <div  class="menu-icon" >
+        <img src="Assets/bars-solid-full-1.svg" alt="bars icon" class="icon" (click)="toggleMenu()">
+        <span [class]="classname" *ngIf="IsOn">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Cerificats</a></li>
+            <li><a href="#">Contact me</a> </li>
+        </span>
+    </div>
+
+</div>
